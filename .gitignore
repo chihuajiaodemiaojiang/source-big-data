@@ -1,0 +1,16 @@
+/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+/.idea/*
+/swiper-7.4.1/*
+/node_modules/*
+/.history/*
+*.zip
+*.rar
+*.via
+*.tmp
+*.err
+*.mp4
+*.exe

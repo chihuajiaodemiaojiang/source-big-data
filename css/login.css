@@ -1,0 +1,81 @@
+.content {
+	min-width: 1200px;
+	height: 100%;
+}
+
+.content .con-left {
+	position: relative;
+	width: 60%;
+	height: 100%;
+	background-color: #1ca8ef;
+}
+
+.content .con-right {
+	position: relative;
+	width: 40%;
+	height: 100%;
+}
+
+.content .con-left a {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -350px;
+	margin-top: -250px;
+}
+
+#scanCode {
+	display: none;
+}
+
+.con-item .item-content {
+	width: 290px;
+	height: 241px;
+	background-color: #fcfcfc;
+	border: 1px solid #eee;
+	padding-top: 30px;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 14px;
+	margin: 0 auto;
+}
+
+.con-item .item-content img {
+	width: 120px;
+	height: 120px;
+	margin-bottom: 5px;
+
+}
+
+.con-item .have {
+	width: 290px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.con-item .item-content p {
+	text-align: center;
+	line-height: 30px;
+}
+
+.con-item .err-icon {
+	width: 16px;
+	height: 17px;
+	background: url(../images/loginIcon.png) no-repeat;
+	background-position: -31px -35px;
+	margin-top: 1px;
+}
+
+.con-item .error {
+	display: none;
+	height: 20px;
+	line-height: 20px;
+	color: red;
+	font-size: 12px;
+
+}
+
+.login-main {
+	display: block;
+	position: absolute;
+}
