@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<title>登录页面</title>
+	<link href="../css/reset.css" rel="stylesheet">
+	<link href="../css/common.css" rel="stylesheet">
+	<link href="../css/login.css" rel="stylesheet">
+
+	<style>
+	</style>
+</head>
+
+<body>
+	<div class="content">
+		<div class="con-left fl">
+			<a href="index.html">
+				<img alt="" src="../images/login-bg.png">
+			</a>
+		</div>
+		<div class="con-right fr">
+			<div class="login-main">
+				<div class="logobox">
+					<a href="index.html">
+						<img alt="" src="../images/loginlogo.png">
+					</a>
+				</div>
+				<div class="tab">
+					<ul class="tab-top clearfix">
+						<li class="fl top-item active" id="LoGin">账号登录</li>
+						<li class="fl line"></li>
+						<li class="fl top-item" id="scanCodeToLogIn">扫码登录</li>
+					</ul>
+					<div class=" tab-content">
+						<div class="con-item current">
+							<form action="#" class="login-form">
+
+								<div class="user-info user-name">
+									<input class="name-inp" id="userName" name="username" placeholder="用户名/手机号/邮箱"
+									       type="text"
+									       value="">
+									<img alt="清除" id="clearUserName" src="../images/clearInput.png">
+								</div>
+								<div class="user-info user-psd">
+									<input class="psd-inp" id="userPsd" name="userpassword" placeholder="密码"
+									       type="password"
+									       value="">
+									<img alt="清除" id="clearUserPwd" src="../images/clearInput.png">
+								</div>
+								<p class="error clearfix" id="sysError">
+									<label class="fl err-icon" id="errIcon"></label>
+									<span class="fl" id="errMsg"></span>
+
+								</p>
+								<div class="forget clearfix">
+									<a class="fr" href="#">忘记密码</a>
+								</div>
+								<input class="login-btn" id="loginBtn" type="button" value="登录">
+								<p class="have">
+									还没有源码账号，
+									<a href="../register.html">立即注册</a>
+									<span></span>
+								</p>
+							</form>
+						</div>
+						<div class="con-item" id="scanCode">
+							<div class="item-content">
+
+								<img alt="" src="../images/showqrcode.jpg">
+
+								<p>微信扫码登录</p>
+								<p>未关注源码科技公众号，请先关注后再登录</p>
+							</div>
+							<p class="have">
+								还没有源码账号，
+								<a href="./register.html">立即注册</a>
+								<span></span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="../js/login.js"></script>
+
+</body>
+
+</html>
