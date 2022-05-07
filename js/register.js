@@ -77,7 +77,6 @@ form.forEach(function (v, i) {
     }
 })
 let getVerificationCode = document.querySelector('#getVerificationCode');
-
 let time = 60;
 let timer = null;
 getVerificationCode.onclick = function () {

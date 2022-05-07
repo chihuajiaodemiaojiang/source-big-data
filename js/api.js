@@ -135,15 +135,7 @@ listItem.forEach(function (v, i) {
         }
     })
 })
-// apIContent.addEventListener('click', function (e) {
-//     
-//     if (e.target.className === 'apply-data') {
-//         mask.style.display = 'block'
-//         loginMain.style.display = 'block'
-//     } else if (e.target.nodeName === 'LI') {
-//         location.href = './APIDetails.html'
-//     }
-// })
+
 
 
 

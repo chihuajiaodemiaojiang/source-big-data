@@ -35,7 +35,7 @@ header .logo a {
 }
 
 .api-assort .nav {
-	/* border: 1px solid blue; */
+
 }
 
 .api-assort .nav a {
@@ -91,14 +91,14 @@ header .logo a {
 	cursor: pointer;
 }
 
-/* 全部两个字 */
+
 .content .search .desc {
 	font-size: 14px;
 	color: #3d3e3e;
 	font-weight: bold;
 }
 
-/*  API列表区域 */
+
 .api-list {
 	position: relative;
 }
@@ -218,7 +218,7 @@ header .logo a {
 	margin-right: 15px;
 }
 
-/* 当前页 */
+
 .page .page-link.curpage {
 	border-radius: 50%;
 	background-color: #00bdff;
