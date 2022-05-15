@@ -33,7 +33,6 @@ form.forEach(function (v, i) {
         form.forEach(function (v2, i2) {
             if (!arr[i2].test(v2.value)) {
                 flag = false;
-                console.log(flag)
             }
         })
         if (flag && argeeChkbox.checked) {
@@ -46,6 +45,7 @@ form.forEach(function (v, i) {
         }
     }
     argeeChkbox.onclick = function () {
+        console.log(arr[i].test(v.value))
         flag = true;
         form.forEach(function (v, i) {
             if (!arr[i].test(v.value)) {
@@ -65,6 +65,7 @@ form.forEach(function (v, i) {
     let blue = true;
     regBtn.onclick = function () {
         if (arr[i].test(v.value) && argeeChkbox.checked) {
+            console.log(arr[i].test(v.value) && argeeChkbox.checked)
             blue = true;
             alert('注册成功,请登录');
             location.href = 'login.html';
@@ -101,6 +102,4 @@ getVerificationCode.onclick = function () {
         }
     }, 1000)
 }
-
-
 
