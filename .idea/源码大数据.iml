@@ -10,5 +10,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="作业" />
     <orderEntry type="module" module-name="老师讲义" />
+    <orderEntry type="module" module-name="yuanmajianshen" />
   </component>
 </module>
